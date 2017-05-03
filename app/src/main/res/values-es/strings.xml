@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="ExtraTranslation">Celebquiz</string>
+    <string name="biebQ">Justin Bieber tiene un récord de 33 relaciones. Dos de ellos fueron:</string>
+    <string name="bradQ">Brad Pitt se había comprometido previamente con:</string>
+    <string name="correctAnswer_string">"La respuesta correcta es : "</string>
+    <string name="mileyA1">Cierto</string>
+    <string name="mileyA2">Falso</string>
+    <string name="mileyQ">Miley Cyrus está actualmente casado.</string>
+    <string name="rhnQ">Quién es Rihanna ahora?</string>
+    <string name="weekndQ" translatable="false" tools:ignore="ExtraTranslation">Escribe el número de relaciones que tenían Weeknd el momento:</string>
+    <string name="you_scored">" Tu puntuación "</string>
+</resources>

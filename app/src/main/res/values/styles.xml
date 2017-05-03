@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+<!--Styles CheckBoxes colors depending the condition (Checked/Unchecked)-->
+
+    <style name="checkBoxStyle">
+        <item name="colorAccent">#FF2B83D1</item>
+        <item name="android:textColorSecondary">#616161</item>
+
+    </style>
+
+<!--Styles the ImageButtons Attributes-->
+
+<style name="ImageButtons">
+    <item name="android:background">#00000000</item>
+    <item name="android:paddingTop">4dp</item>
+    <item name="android:scaleType">fitCenter</item>
+    <item name="android:layout_gravity">center</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+</style>
+
+<!-- Styles The Correct Answers attributes -->
+
+    <style name="ScoreViews">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#2982d0</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+</style>
+
+
+<!-- Styles wrap content -->
+
+    <style name="WC">
+        <item name="android:layout_width">wrap_content</item>
+         <item name="android:layout_height">wrap_content</item>
+    </style>
+
+<!-- Adds Margin on Right/Left/Top of Question Images-->
+
+    <style name="marginsImg">
+
+        <item name="android:layout_marginLeft">@dimen/IVMT</item>
+        <item name="android:layout_width">@dimen/dps125</item>
+        <item name="android:layout_height">@dimen/dps125</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_marginTop">@dimen/IVMT</item>
+
+    </style>
+</resources>

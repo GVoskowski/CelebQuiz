@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Celebquiz</string>
+    <string name="rhnQ">Who is Rihanna dating right now?</string>
+    <string name="rhnA1" translatable="false">Drake</string>
+    <string name="rhnA2" translatable="false">Chris Brown</string>
+    <string name="rhnA3" translatable="false">Travis Scott</string>
+    <string name="rhnA4" translatable="false">No one</string>
+
+
+    <string name="bradQ">Brad Pitt was previously engaged with:</string>
+    <string name="bradA1" translatable="false">Jill Schoelen</string>
+    <string name="bradA2" translatable="false">Scarlet Johansson</string>
+    <string name="bradA3" translatable="false">Linsday Lohan</string>
+    <string name="bradA4" translatable="false">Demi Moore</string>
+
+    <string name="mileyQ">Miley Cyrus is currently married. </string>
+    <string name="mileyA1">True</string>
+    <string name="mileyA2">False</string>
+
+    <string name="weekndQ" tools:ignore="MissingTranslation">Type the number of relationship(s) The Weeknd has had until now</string>
+
+
+    <string name="biebQ">Justin Bieber has a record of 33 relationships.Two of them were : </string>
+    <string name="biebA1" translatable="false">Kylie Jenner &amp; Adriana Lima</string>
+    <string name="biebA2" translatable="false">Rita Ora &amp; Debby Ryan</string>
+    <string name="biebA3" translatable="false">Victoria Justice &amp; Selena Gomez</string>
+    <string name="correctAnswer_string">"The correct answer is : "</string>
+    <string name="you_scored">You scored </string>
+    <string name="two" tools:ignore="MissingTranslation">2</string>
+</resources>

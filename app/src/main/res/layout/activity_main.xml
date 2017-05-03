@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="com.example.android.celebquiz.MainActivity">
+
+    <RelativeLayout style="@style/WC">
+
+        <ImageView
+            android:id="@+id/bannerQuiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/fotocreated"
+            tools:ignore="ContentDescription"/>
+
+
+        <ImageView
+            android:id="@+id/banner2"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/hg260"
+            android:layout_below="@+id/bannerQuiz"
+            android:layout_marginBottom="45dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/collage3"
+            tools:ignore="ContentDescription"/>
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/banner2"
+            android:layout_centerHorizontal="true"
+            android:background="#ffffff"
+            android:onClick="startQuiz"
+            android:scaleType="centerInside"
+            android:src="@drawable/buttonain"
+            tools:ignore="ContentDescription"/>
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="ExtraTranslation">Celebquiz</string>
+    <string name="biebQ">Ο Justin Bieber είχε 33 σχέσεις . Δύο από αυτές ήταν με :</string>
+    <string name="bradQ">Ο Brad Pitt ήταν προηγουμένος αρραβωνιασμένος με την :</string>
+    <string name="correctAnswer_string">"Η Σωστή απάντηση είναι : "</string>
+    <string name="mileyA1">Αλήθεια</string>
+    <string name="mileyA2">Ψέμματα</string>
+    <string name="mileyQ">H Miley Cyrus είναι παντρεμένη :</string>
+    <string name="rhnQ">Με ποιόν βγαίνει η Rihanna αυτή τη στιγμή;</string>
+    <string name="rihanna" tools:ignore="ExtraTranslation"></string>
+    <string name="weekndA" tools:ignore="ExtraTranslation"></string>
+    <string name="weekndQ">Γράψτε τον αριθμό των σχέσεων που είχε ο Weeknd έως τώρα :</string>
+    <string name="you_scored">"Σκόραρες "</string>
+</resources>

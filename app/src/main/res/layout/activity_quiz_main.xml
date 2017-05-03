@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_quiz_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dp2"
+            tools:context="com.example.android.celebquiz.quizMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/bannerQuiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitCenter"
+            android:src="@drawable/fotocreated"
+            tools:ignore="ContentDescription"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hg260"
+            android:background="@drawable/questionew2">
+
+            <ImageView
+                android:id="@+id/rhnIMG"
+                style="@style/marginsImg"
+                android:src="@drawable/rihan"
+                tools:ignore="ContentDescription"/>
+
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/WC"
+                android:layout_alignTop="@+id/rhnIMG"
+                android:layout_toEndOf="@+id/rhnIMG"
+                android:layout_toRightOf="@+id/rhnIMG"
+                android:paddingLeft="@dimen/TVpadd"
+                android:paddingRight="@dimen/TVpadd"
+                android:paddingStart="@dimen/TVpadd"
+                android:text="@string/rhnQ"
+                android:textSize="@dimen/textsize"
+                android:textStyle="normal"/>
+
+            <RadioGroup
+                android:id="@+id/rdgrp1"
+                style="@style/WC"
+                android:layout_below="@+id/textView"
+                android:layout_toEndOf="@+id/rhnIMG"
+                android:layout_toRightOf="@+id/rhnIMG"
+                android:theme="@style/checkBoxStyle">
+
+                <RadioButton
+                    android:id="@+id/radioButton6"
+                    style="@style/WC"
+                    android:text="@string/rhnA1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton7"
+                    style="@style/WC"
+                    android:text="@string/rhnA4"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton8"
+                    style="@style/WC"
+                    android:text="@string/rhnA3"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton5"
+                    style="@style/WC"
+                    android:text="@string/rhnA2"/>
+
+            </RadioGroup>
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/CorrectAnswer1"
+            style="@style/ScoreViews"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hg260"
+            android:background="@drawable/questionew2">
+
+            <ImageView
+                android:id="@+id/bradpitt"
+                style="@style/marginsImg"
+                android:src="@drawable/bradpitt"
+                tools:ignore="ContentDescription"/>
+
+            <TextView
+                android:id="@+id/bradpitQ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/bradpitt"
+                android:layout_marginEnd="@dimen/dp15"
+                android:layout_marginRight="@dimen/dp15"
+                android:layout_toEndOf="@+id/bradpitt"
+                android:layout_toRightOf="@+id/bradpitt"
+                android:paddingLeft="@dimen/TVpadd"
+                android:paddingRight="@dimen/TVpadd"
+                android:text="@string/bradQ"
+                android:textSize="@dimen/textsize"
+                android:textStyle="normal"/>
+
+
+            <RadioGroup
+                android:id="@+id/rgrp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bradpitQ"
+                android:layout_toEndOf="@id/bradpitt"
+                android:layout_toRightOf="@+id/bradpitt"
+                android:theme="@style/checkBoxStyle">
+
+                <RadioButton
+                    android:id="@+id/bradA2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bradA2"/>
+
+                <RadioButton
+                    android:id="@+id/bradA3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bradA3"/>
+
+                <RadioButton
+                    android:id="@+id/bradA4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bradA4"/>
+
+
+                <RadioButton
+                    android:id="@+id/bradA1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bradA1"/>
+            </RadioGroup>
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/CorrectAnswer2"
+            style="@style/ScoreViews"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hg260"
+            android:background="@drawable/questionew2">
+
+            <ImageView
+                android:id="@+id/mileyQ"
+                style="@style/marginsImg"
+                android:src="@drawable/mileyimg"
+                tools:ignore="ContentDescription"/>
+
+            <TextView
+                android:id="@+id/mileyQu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/mileyQ"
+                android:layout_marginEnd="@dimen/dp15"
+                android:layout_marginRight="@dimen/dp15"
+                android:layout_toEndOf="@+id/mileyQ"
+                android:layout_toRightOf="@+id/mileyQ"
+                android:paddingLeft="@dimen/TVpadd"
+                android:paddingRight="@dimen/TVpadd"
+                android:text="@string/mileyQ"
+                android:textSize="@dimen/textsize"
+                android:textStyle="normal"/>
+
+            <RadioGroup
+                android:id="@+id/rdgrp3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mileyQu"
+                android:layout_toEndOf="@id/mileyQ"
+                android:layout_toRightOf="@id/mileyQ"
+                android:orientation="vertical"
+                android:theme="@style/checkBoxStyle">
+
+                <CheckBox
+                    android:id="@+id/mileyCB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mileyA1"/>
+
+                <CheckBox
+                    android:id="@+id/mileyCB2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mileyA2"/>
+            </RadioGroup>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/CorrectAnswer3"
+            style="@style/ScoreViews"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hg260"
+            android:background="@drawable/questionew2">
+
+            <ImageView
+                android:id="@+id/weekndQ"
+                style="@style/marginsImg"
+                android:src="@drawable/weeknd"
+                tools:ignore="ContentDescription"/>
+
+            <TextView
+                android:id="@+id/weekndQu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/weekndQ"
+                android:layout_marginEnd="@dimen/IVmL"
+                android:layout_marginRight="@dimen/IVmL"
+                android:layout_toEndOf="@+id/weekndQ"
+                android:layout_toRightOf="@+id/weekndQ"
+                android:paddingLeft="@dimen/TVpadd"
+                android:paddingRight="@dimen/TVpadd"
+                android:paddingStart="@dimen/TVpadd"
+                android:text="@string/weekndQ"
+                android:textSize="@dimen/textsize"
+                android:textStyle="normal"/>
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="@dimen/dps125"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/weekndQu"
+                android:layout_toEndOf="@+id/weekndQ"
+                android:layout_toRightOf="@id/weekndQ"
+                android:inputType="number"
+                android:textColor="#2982d0"
+                android:theme="@style/checkBoxStyle"/>
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/CorrectAnswer4"
+            style="@style/ScoreViews"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hg260"
+            android:background="@drawable/questionew2">
+
+            <ImageView
+                android:id="@+id/bieber"
+                style="@style/marginsImg"
+                android:src="@drawable/bieber"
+                tools:ignore="ContentDescription"/>
+
+            <TextView
+                android:id="@+id/biebQ"
+                style="@style/WC"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/bieber"
+                android:layout_marginEnd="@dimen/TVpadd"
+                android:layout_marginRight="@dimen/TVpadd"
+                android:layout_toEndOf="@+id/bieber"
+                android:layout_toRightOf="@+id/bieber"
+                android:paddingLeft="@dimen/TVpadd"
+                android:paddingRight="@dimen/TVpadd"
+                android:text="@string/biebQ"
+                android:textSize="@dimen/textsize"
+                android:textStyle="normal"/>
+
+
+            <RadioGroup
+                android:id="@+id/rdgrp4"
+                style="@style/WC"
+                android:layout_below="@+id/biebQ"
+                android:layout_toEndOf="@+id/bieber"
+                android:layout_toRightOf="@+id/bieber"
+                android:theme="@style/checkBoxStyle">
+
+                <RadioButton
+                    android:id="@+id/biebA2"
+                    style="@style/WC"
+                    android:text="@string/biebA2"/>
+
+                <RadioButton
+                    android:id="@+id/biebA3"
+                    style="@style/WC"
+                    android:text="@string/biebA3"/>
+
+
+                <RadioButton
+                    android:id="@+id/biebA1"
+                    style="@style/WC"
+                    android:text="@string/biebA1"/>
+            </RadioGroup>
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/CorrectAnswer5"
+            style="@style/ScoreViews"/>
+
+
+        <ImageButton
+            style="@style/ImageButtons"
+            android:onClick="reset"
+            android:src="@drawable/reset"
+            tools:ignore="ContentDescription"/>
+
+        <ImageButton
+            style="@style/ImageButtons"
+            android:onClick="scoreSets"
+            android:src="@drawable/submit"
+            tools:ignore="ContentDescription"/>
+
+        <ImageButton
+            style="@style/ImageButtons"
+            android:onClick="showCorrect"
+            android:src="@drawable/correct"
+            tools:ignore="ContentDescription"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
