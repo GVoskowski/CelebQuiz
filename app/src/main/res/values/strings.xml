@@ -27,4 +27,9 @@
     <string name="correctAnswer_string">"The correct answer is : "</string>
     <string name="you_scored">You scored </string>
     <string name="two" tools:ignore="MissingTranslation">2</string>
+    <string name="miley_cyrus_has_been_in_relationship_with">Miley Cyrus has been in relationship with :</string>
+    <string name="just_gast">Justin Gaston</string>
+    <string name="brad_pitt">Brad Pitt</string>
+    <string name="stella_maxwell">Stella Maxwell</string>
+    <string name="jolie_">Angelina Jolie</string>
 </resources>

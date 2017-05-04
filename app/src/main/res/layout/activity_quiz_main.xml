@@ -178,7 +178,7 @@
                 android:layout_toRightOf="@+id/mileyQ"
                 android:paddingLeft="@dimen/TVpadd"
                 android:paddingRight="@dimen/TVpadd"
-                android:text="@string/mileyQ"
+                android:text="@string/miley_cyrus_has_been_in_relationship_with"
                 android:textSize="@dimen/textsize"
                 android:textStyle="normal"/>
 
@@ -196,13 +196,23 @@
                     android:id="@+id/mileyCB"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/mileyA1"/>
+                    android:text="@string/just_gast"/>
 
                 <CheckBox
                     android:id="@+id/mileyCB2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/mileyA2"/>
+                    android:text="@string/brad_pitt"/>
+                <CheckBox
+                    android:id="@+id/mileyCB3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stella_maxwell"/>
+                <CheckBox
+                    android:id="@+id/mileyCB4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jolie_"/>
             </RadioGroup>
 
         </RelativeLayout>
@@ -249,6 +259,7 @@
                 android:layout_toRightOf="@id/weekndQ"
                 android:inputType="number"
                 android:textColor="#2982d0"
+                android:text="0"
                 android:theme="@style/checkBoxStyle"/>
 
 

@@ -21,12 +21,14 @@ public class quizMain extends AppCompatActivity {
         correctAnswer = (RadioButton) findViewById(R.id.radioButton7);
         correctAnswer2 = (RadioButton) findViewById(R.id.bradA1);
         correctAnswer3 = (RadioButton) findViewById(R.id.biebA1);
-        rltnStatus = (CheckBox) findViewById(R.id.mileyCB);
-        rltnStatusF = (CheckBox) findViewById(R.id.mileyCB2);
+        rltnStatus1 = (CheckBox) findViewById(R.id.mileyCB);
+        rltnStatus2 = (CheckBox) findViewById(R.id.mileyCB2);
+        rltnStatus3 = (CheckBox) findViewById(R.id.mileyCB3);
+        rltnStatus4 = (CheckBox) findViewById(R.id.mileyCB4);
     }
 
     private RadioButton correctAnswer, correctAnswer2, correctAnswer3;
-    private CheckBox rltnStatus, rltnStatusF;
+    private CheckBox rltnStatus1, rltnStatus2, rltnStatus3, rltnStatus4;
 
 
     public void scoreSets(View v) {
@@ -51,9 +53,15 @@ public class quizMain extends AppCompatActivity {
         }
 
         //Check Miley Cyrus Answer, Add Points if Correct
-        if (rltnStatus.isChecked() && !rltnStatusF.isChecked()) {
+        if (rltnStatus1.isChecked() && rltnStatus3.isChecked() && !rltnStatus2.isChecked() && !rltnStatus4.isChecked()) {
             score += 1;
+        } else if (rltnStatus1.isChecked() && rltnStatus2.isChecked() && rltnStatus3.isChecked() && rltnStatus4.isChecked())
+
+        {
+            Toast.makeText(this, "Please select only the right Answers", Toast.LENGTH_SHORT).show();
         }
+
+
         //Checks Editable answer, Add Points if Correct
         if (myNum == 2) {
             score += 1;
