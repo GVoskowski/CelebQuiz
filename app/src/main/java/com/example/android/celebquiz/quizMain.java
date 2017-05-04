@@ -81,7 +81,7 @@ public class quizMain extends AppCompatActivity {
         correctAnswer2.setText(getString(R.string.correctAnswer_string) + getString(R.string.bradA1));
 
         TextView correctAnswer3 = (TextView) findViewById(R.id.CorrectAnswer3);
-        correctAnswer3.setText(getString(R.string.correctAnswer_string) + getString(R.string.mileyA1));
+        correctAnswer3.setText(getString(R.string.correctAnswer_string) + getString(R.string.just_gast) + getString(R.string.stella_maxwell));
 
         TextView correctAnswer4 = (TextView) findViewById(R.id.CorrectAnswer4);
         correctAnswer4.setText(getString(R.string.correctAnswer_string) + getString(R.string.two));
